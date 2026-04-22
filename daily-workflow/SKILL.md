@@ -9,7 +9,7 @@ description: 前端开发全流程自动化。当用户说"开启dw"、"开启 d
 
 ## 前置条件
 
-- 飞书根目录：`Kiro/`（https://swn7zpxv453.feishu.cn/wiki/ORPWwDYmWiTeYgkmiqIcuo3Qnfe ，如子目录不存在则创建）
+- 飞书根目录：`Kiro/`（https://xxx.feishu.cn/wiki/你的知识库ID ，如子目录不存在则创建）
   - `Kiro/daily_work` — 工作跟踪表格（如不存在则自动创建，并初始化表头：需求名、分支名、当前状态）
   - `Kiro/YYYYMMDD_[需求名]_需求分析/` — 需求分析文档
   - `Kiro/YYYYMMDD_[需求名]_需求分析/[需求名]_设计文档/` — 设计文档
