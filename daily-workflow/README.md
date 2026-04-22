@@ -2,7 +2,7 @@
 
 ## 这是什么
 
-一个 Kiro Skill，用 AI 自动化前端开发全流程：需求分析 → 设计文档 → 代码开发 → 接口联调 → 自测 → 提测。同时支持日报、周报、季度/年度总结的自动生成。
+一个 Kiro Skill，用 AI 自动化前端开发全流程：需求分析 → 设计文档 → 代码开发 → 接口联调 → AI CR → 自测 → 提测。同时支持日报、周报、季度/年度总结的自动生成。
 
 所有文档自动创建在飞书 `Kiro/` 目录下，工作进度自动记录在 `daily_work` 表格中。
 
@@ -70,7 +70,7 @@
 开启 dw https://xxx.feishu.cn/wiki/xxx（PRD链接）
 ```
 
-AI 会自动按六步流程推进，每步完成后等你确认再继续。
+AI 会自动按七步流程推进，每步完成后等你确认再继续。
 
 > 第一步会自动生成 Git 分支名并创建分支（`git checkout -b feature/xxx-yyy`），后续通过分支名自动关联需求上下文。
 
@@ -106,7 +106,7 @@ PRD链接 → ① 需求分析 → ② 设计文档 → ③ 代码开发 → ④
     ├── requirement-analysis.md       # 需求分析规范
     ├── development-design.md         # 设计文档规范
     ├── coding-standards.md           # 编码规范
-    ├── code-review.md                # AI CR 走查规范
+    ├── code-review.md                # AI CR 走查规范（引用 cr-general skill）
     ├── self-testing.md               # 自测规范
     ├── test-submission.md            # 提测文档模板
     ├── general-rules.md              # 通用规则
