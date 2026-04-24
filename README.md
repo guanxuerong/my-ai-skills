@@ -85,7 +85,10 @@ skills/
         ├── test-submission.md        # 提测文档模板
         ├── general-rules.md          # 通用规则
         ├── weekly-report.md          # 周报模板
-        └── periodic-summary.md       # 季度/年度总结模板
+        ├── periodic-summary.md       # 季度/年度总结模板
+        └── modules/                  # 模块专项规范（可选）
+            ├── _template.md          # 模板文件
+            └── xxx.md               # 各模块专项规范
 ```
 
 ---
